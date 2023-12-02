@@ -20,7 +20,9 @@ clean_notebook_for_vcs() {
   nbstripout --install --attributes .gitattributes
 }
 
-# Activate the virtual environment so the remaining code will run within the venv.
+##### MAIN #####
+
+# Activate the virtual environment so that all commands will run within the venv.
 python -m venv venv
 source venv/bin/activate
 
